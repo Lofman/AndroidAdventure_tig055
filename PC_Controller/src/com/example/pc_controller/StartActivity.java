@@ -44,11 +44,11 @@ public class StartActivity extends ActionBarActivity {
 	}
 
 	public void btn2TouchpadClicked(View view) {
-		startActivity(new Intent(this, KeyboardActivity.class));
+		startActivity(new Intent(this, TouchpadActivity.class));
 	}
 
 	public void btn3GamingClicked(View view) {
-		startActivity(new Intent(this, KeyboardActivity.class));
+		startActivity(new Intent(this, GamingActivity.class));
 	}
 
 }
